@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Portals</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-phone"></span>+254743956993</a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="#" class="icon fa fa-facebook"></a></li>
+					<li><a href="#" class="icon fa fa-twitter"></a></li>
+					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="portals.html">Portals</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+		.navbar-default {
+        		background: #66df41;
+        	}
+        
+        	.navbar-default .navbar-nav li a {
+        		color: #020202;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+			.navbar-nav {
+				float: right;
+			}
+			
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+			.btn {
+  color: #000000;
+  background-color: #ffffff;
+
+ 
+  height: 3em;
+  width: 8em;
+  font-size: large;
+  font-weight: 600;
+}
+.btn:hover {
+
+  color: rgb(255, 0, 0);
+}
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}		
+        
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="login-container">
+		<h2>Login</h2>
+		<form>
+		  <div class="input-group">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+		  </div>
+		  <div class="input-group">
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+		  </div>
+		  <button type="submit">Login</button>
+		</form>
+	  </div>
+	 <center><p><h1><i><a href="#">Forgot password?☹</a></i></h1</p></center> 
+</center>
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>ACE INSTITUTE</h3>
+				<hr>
+				<p>Welcomes you to great learning</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>At ACE Learning Institute, we believe in the transformative power of education. Established with a vision to nurture talent, foster innovation, and empower individuals to reach their full potential, ACE Learning Institute is a leading provider of quality education and professional development programs.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							PO BOX **Kericho 
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							<a href=“tel:+254743956993”>+254743956993</a>						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							<a href="mailto:info@acelearning.com">info@aceinstitute@gmail.com</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>&copy 2024 <span>Kenya Highlands University <span>Students Assignment Project</span></span> All Rights Reserved</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>ACE INSTITUTE</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-phone"></span>+254743956993</a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="#" class="icon fa fa-facebook"></a></li>
+					<li><a href="#" class="icon fa fa-twitter"></a></li>
+					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+
+					<ul class="nav navbar-nav">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="portals.html">Portals</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="cookie-popup" class="cookie-popup">
+			<p>Welcome to Ace Institute's website. Like most websites, we use cookies to enhance your browsing experience and provide personalized content. 
+				By continuing to use our website, you consent to the use of cookies in accordance with our Privacy Policy.</p>
+			<button id="accept-cookies">Accept</button>
+		  </div>
+		  
+		  
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	  var cookiePopup = document.getElementById('cookie-popup');
+	  var acceptCookiesBtn = document.getElementById('accept-cookies');
+	
+	  cookiePopup.style.display = 'block';
+	
+	  acceptCookiesBtn.addEventListener('click', function() {
+		// Hide the cookie popup
+		cookiePopup.style.display = 'none';
+	  });
+	});
+	</script>
+        <style>
+        .cookie-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3dfa36;
+  padding: 20px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  display: none;
+}
+
+.cookie-popup p {
+  margin: 0;
+}
+
+.cookie-popup button {
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cookie-popup button:hover {
+  background-color: #ffffff;
+}
+        	.navbar-default {
+        		background: #66df41;
+        	}
+        
+        	.navbar-default .navbar-nav li a {
+        		color: #020202;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+			
+			.btn {
+    background-color: #FF0000; /* Red color */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="banner">
+    	<div class="opacity_overlay">
+    		<div class="info">
+    			<h2>ACE INSTITUTE OF COMPUTER STUDIES</h2>
+    			<h2><i>"Building the future"</i></h2>
+    			<hr>
+    			<h3>We believe everyone deserves</h3>
+    			<h3>The best Education</h3>
+    		</div>
+    		
+    		<div class="secondary_layer">
+    			<div class="container">
+    				<div class="col-md-8 col-sm-6">
+    					<p class="msg">Ready to learn with us <span>?</span></p>
+    					<p class="quote">Send application</p>
+    				</div>
+    				<div class="col-md-4 col-sm-6 pull-right">
+    					<a href="resources/Application Form.pdf" class="btn"><button type="button">Apply Now</button></a>
+    					<a href="" class="btn"><button type="button">Learn More</button></a>
+    				</div>
+    			</div>
+    		</div>
+    		
+    	</div>
+    </div>
+    
+    
+    <div class="services">
+    	<div class="container">
+    		<h2><b>Ace Institute invites <span id="rotate" style="color: #0fee07;"></span> to your future</b></h2>
+    		<h3>At ACE, we believe in empowering individuals with the knowledge and skills needed to thrive in the dynamic world of computer science. With a commitment to excellence in education, we offer a diverse range of programs designed to equip our students with the technical expertise and practical experience necessary to succeed in today's digital landscape.</h3>
+    		
+			<div class="overview">
+			
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-box">
+						<img src="images/mysql.jpg" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>My SQL Certification</h4>
+						<p>Obtaining a certification in MySQL can be beneficial for those seeking to demonstrate their proficiency in using this popular relational database management system.</p>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-box">
+						<img src="images/aws.jpg" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>AWS Certification</h4>
+						<p>Amazon Web Services (AWS) offers a range of certifications aimed at validating technical expertise with their cloud platform. These certifications are highly regarded in the industry and can be valuable for individuals seeking to advance their careers in cloud computing. </p>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-box">
+						<img src="images/cisco.jpeg" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>CISCO certification</h4>
+						<p>Cisco Systems offers a comprehensive range of certifications covering various levels of expertise in networking and information technology. Cisco certifications are widely recognized and respected in the industry, providing validation of skills and expertise in Cisco technologies.</p>
+					</div>
+				
+				</div>
+
+			</div>
+    	</div>
+    </div>
+    
+	<div class="information">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-3 col-sm-3 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="10000" data-speed="1000"></h3>
+					<span class="counter-text">Students</span>
+            	</div> 
+            	<div class="col-md-3 col-sm-3 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="500" data-speed="2000"></h3>
+					<span class="counter-text">AWS Graduates</span>
+            	</div>   
+            	<div class="col-md-3 col-sm-3 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="7500" data-speed="3000"></h3>
+					<span class="counter-text">CIsco Graduates</span>
+            	</div> 
+             	<div class="col-md-3 col-sm-3 counter-item">
+					<h3 class="counter-number" data-from="1" data-to="2500" data-speed="4000"></h3>
+					<span class="counter-text">My SQL Graduates</span>
+            	</div> 
+            	
+            </div>
+		</div>
+	</div>    
+	
+	
+	<div class="projects">
+		<div class="container">
+		
+			<h3>OUR DEVELOPMENT TREE</h3>
+			<hr>
+			
+			<div class="news">
+			
+				<div class="date">
+					<h4>2016</h4>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-desktop"></span>CISCO certified</h5>
+									<p>We  offer quality training materials, experienced instructors, and hands-on lab opportunities to help you prepare effectively for the certification exams.</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-credit-card"></span>My SQL certified</h5>
+									<p>While MySQL certifications are offered by Oracle, many educational institutions <i>"including us"</i>, training centers, and online platforms provide courses and resources to help you prepare for these certifications.</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class=""></span>AWS certifications</h5>
+									<p>AWS certifications are highly regarded in the industry and are designed to validate technical expertise in cloud computing and AWS services.</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="button">
+					<a href="" class="btn">View More</a>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="clients">
+		<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="carousel slide clients-carousel" id="clients-slider">
+                    	<div class="carousel-inner">
+                        	<div class="item active">
+                            	<div class="row">
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/helb.jpg" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/kuccps.jpg" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/moe.jpg" alt="" />
+										</a>
+									</div>
+                            	</div>
+                        	</div>
+                        	<div class="item">
+                            	<div class="row">
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/mysql.jpg" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/cisco.jpg" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/aws.jpg" alt="" />
+                                   	 	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="#">
+                                        	<img src="images/clients/client8.png" alt="" />
+                                    	</a>
+                                	</div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+        </div>
+	</div>
+	
+	
+	<div class="more-information">
+		<div class="container">
+			<div class="col-md-6">
+				<div class="sides">
+					<h4>Why Choose Us</h4>
+					<hr>
+					<p>At ACE Learning Institute, we are dedicated to providing unparalleled educational experiences that empower our students to succeed in their chosen fields. Here's why you should choose us for your educational journey</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="sides">
+					<h4>What We Will Do</h4>
+					<hr>
+					<p>At ACE Learning Institute, our mission is to empower you to achieve your educational and career goals.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="subscribe">
+		<div class="opacity_overlay">
+			<div class="container">
+				<h3>Subscribe</h3>
+				<p>Be the first to hear our latest Updates</p>
+				
+				<form class="form-subscribe" action="#">
+					<div class="input-group">
+						<input type="text" class="form-input" placeholder="Your Email Address" required>
+						<span class="btn-group">
+							<button class="btn" type="submit">Subscribe</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>ACE INSTITUTE</h3>
+				<hr>
+				<p>Welcomes you to great learning</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>At ACE Learning Institute, we believe in the transformative power of education. Established with a vision to nurture talent, foster innovation, and empower individuals to reach their full potential, ACE Learning Institute is a leading provider of quality education and professional development programs.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							PO BOX **Kericho 
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							<a href=“tel:+254743956993”>+254743956993</a>						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							<a href="mailto:info@acelearning.com">info@aceinstitute@gmail.com</a>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>&copy 2024 <span>Kenya Highlands University <span>Students Assignment Project</span></span> All Rights Reserved</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    <script type="text/javascript">
+    
+    	var terms = ["Success", "Knowledge", "Technology"];
+
+		function rotateTerm() {
+  			var ct = $("#rotate").data("term") || 0;
+  			$("#rotate").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).fadeIn()
+              	.delay(1000).fadeOut(200, rotateTerm);
+		}
+		$(rotateTerm);
+
+    </script>
+
+    
+	<script type="text/javascript">
+
+  	jQuery('.counter-item').appear(function() {
+    	jQuery('.counter-number').countTo();
+    	jQuery(this).addClass('funcionando');
+   	 	console.log('funcionando');
+  	});
+  
+	</script>
+	
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+            $("#clients-slider").carousel({
+                interval: 5000 //TIME IN MILLI SECONDS
+            });
+        });
+        
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+
+</body>
+
+</html>
