@@ -1,0 +1,15 @@
+POST /marks/process HTTP/1.1
+Host: amis.khu.ac.ke
+Content-Length: 90
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://amis.khu.ac.ke
+Referer: http://amis.khu.ac.ke/marks/entry
+Accept-Encoding: gzip, deflate, br
+Cookie: JSESSIONID=552B107CBC67DD12E3CE7F4B8BABD225
+Connection: keep-alive
+
+regno=DBM%2F02763%2F2022&ayear=2023%2F2024&yos=2&sem=1&code=DM-211&ass=14&cats=13&exams=40
