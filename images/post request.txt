@@ -9,7 +9,7 @@ Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 Origin: http://amis.khu.ac.ke
 Referer: http://amis.khu.ac.ke/marks/entry
 Accept-Encoding: gzip, deflate, br
-Cookie: JSESSIONID=345F2231A7C18A8B7DF264ED97D7A71F
+Cookie: JSESSIONID=0B0AF137A8A09DFBF08525A2217450D7
 Connection: keep-alive
 
-regno=BED%2f297%2f2021&ayear=2023%2f2024&yos=3&sem=2&code=DM-211&ass=14&cats=13&exams=40
+regno=BED%2f141%2f2019&ayear=2021%2f2022&yos=3&sem=2&code=CG-344&ass=13&cats=14&exams=38
