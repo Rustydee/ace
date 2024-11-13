@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Apply Now - ACE Institute</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        })
+    </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <div class="loader"></div>
+    
+    <header>
+        <div class="top-heading">
+            <div class="container">
+                <div class="contact-info pull-left">
+                    <a href="#"><span class="fa fa-phone"></span>+254743956993</a>
+                </div>
+                <ul class="social-icons pull-right">
+                    <li><a href="#" class="icon fa fa-facebook"></a></li>
+                    <li><a href="#" class="icon fa fa-twitter"></a></li>
+                    <li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+                    <li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/index.html"></a>
+                </div>
+
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/ACE-INSTUTUTE/"><span>Home</span></a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="portals.html">Portals</a></li>
+                        <li><a href="downloads.html">Downloads</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li class="active">Apply Now</li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h2 class="page-title">Apply Now</h2>
+        <p class="lead">Begin your journey with ACE Learning Institute by filling out the application form below.</p>
+        
+        <form action="submit_application.php" method="POST">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Select Course:</label>
+                <select class="form-control" id="course" name="course" required>
+                    <option value="Introduction to Operating Systems">Introduction to Operating Systems</option>
+                    <option value="Basic Computer Skills">Basic Computer Skills</option>
+                    <option value="Introduction to Word Processing">Introduction to Word Processing</option>
+                    <option value="Introduction to Spreadsheets">Introduction to Spreadsheets</option>
+                    <option value="Introduction to Presentations">Introduction to Presentations</option>
+                    <option value="Internet and Email Basics">Internet and Email Basics</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Additional Information:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Any additional information..."></textarea>
+            </div>
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="col-md-4 col-sm-6">
+                <h3>ACE INSTITUTE</h3>
+                <hr>
+                <p>Welcomes you to great learning</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h3>About Us</h3>
+                <hr>
+                <p>ACE Learning Institute is a leading provider of quality education, focused on nurturing talent, fostering innovation, and empowering individuals to reach their full potential.</p>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <h3>Contact Info</h3>
+                <hr>
+                <ul class="contact-list">
+                    <li><p><i class="fa fa-home"></i> PO BOX **Kericho </p></li>
+                    <li><p><i class="fa fa-phone"></i> <a href=“tel:+254743956993”>+254743956993</a></p></li>
+                    <li><p><i class="fa fa-envelope-o"></i> <a href="mailto:info@acelearning.com">info@aceinstitute@gmail.com</a></p></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="copyright-part">
+        <p>&copy 2024 <span>Kenya Highlands University <span>Students Assignment Project</span></span> All Rights Reserved</p>
+    </div>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+            $('.dropdown-toggle').dropdown();
+        });
+      
+        $(function () {
+            $.scrollUp({
+                scrollName: 'scrollUp',
+                topDistance: '300',
+                topSpeed: 600,
+                animation: 'fade',
+                animationInSpeed: 200,
+                animationOutSpeed: 200,
+                activeOverlay: false,
+                scrollImg: true,
+            });
+        });
+    </script>
+
+</body>
+
+</html>
